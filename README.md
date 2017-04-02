@@ -3,7 +3,7 @@
 <div align="center">
   <!-- Dependency Status -->
   <a href="https://david-dm.org/vtripolitakis/react-boilerplate">
-    <img src="https://david-dm.org/vtripolitakis/dummy_boilerplate" alt="Dependency Status" />
+    <img src="https://david-dm.org/vtripolitakis/dummy_boilerplate.svg" alt="Dependency Status" />
   </a>
   <!-- devDependency Status -->
   <a href="https://david-dm.org/vtripolitakis/dummy_boilerplate#info=devDependencies">

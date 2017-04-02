@@ -1,7 +1,7 @@
 const path = require('path');
 
 const config = {
-  entry: './src/dummy.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'all.js'

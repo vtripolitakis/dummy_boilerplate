@@ -9575,12 +9575,18 @@ var _world2 = _interopRequireDefault(_world);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/*eslint-enable no-unused-vars*/
+
+
+/*eslint-disable no-unused-vars*/
+/*eslint-disable no-unused-vars*/
 _reactDom2.default.render(_react2.default.createElement(
   "div",
   null,
   _react2.default.createElement(_hello2.default, null),
   _react2.default.createElement(_world2.default, null)
 ), document.getElementById("root"));
+/*eslint-enable no-unused-vars*/
 
 /***/ }),
 /* 84 */

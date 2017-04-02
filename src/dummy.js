@@ -1,11 +1,11 @@
 class Dummy{
-  constructor(){
-      }
+    constructor(){
+    }
   
-  sayHello(name){
-    console.log("hello "+name)
-  }
+    sayHello(name){
+        console.log("hello "+name)
+    }
 }
 
 let dummyObject = new Dummy()
-dummyObject.sayHello('Bender')
+dummyObject.sayHello("Bender")

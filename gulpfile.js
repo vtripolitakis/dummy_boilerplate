@@ -21,8 +21,8 @@ gulp.task('compress', function() {
   gulp.src('dist/**/*.js')
     .pipe(minify({
         ext:{
-            src:'-debug.js',
-            min:'.js'
+            src:'.js',
+            min:'.min.js'
         },
         exclude: ['tasks'],
         ignoreFiles: ['.combo.js', '-min.js']

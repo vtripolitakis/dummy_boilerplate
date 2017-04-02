@@ -4,6 +4,12 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+ReactDOM.render(React.createElement(
+  "h1",
+  null,
+  "Hello, world!"
+), document.getElementById('root'));
+
 var Dummy = function () {
   function Dummy() {
     _classCallCheck(this, Dummy);
@@ -20,5 +26,5 @@ var Dummy = function () {
 }();
 
 var dummyObject = new Dummy();
-dummyObject.sayHello('Bender');
+dummyObject.sayHello("Bender");
 //# sourceMappingURL=all.js.map

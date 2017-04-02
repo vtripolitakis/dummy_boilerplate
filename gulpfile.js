@@ -4,6 +4,8 @@ var babel = require("gulp-babel");
 var concat = require("gulp-concat");
 var minify = require("gulp-minify");
 const eslint = require('gulp-eslint');
+var webpackStream = require('webpack-stream');
+var webpack2 = require('webpack');
 
 
 gulp.task("default", function () {
@@ -15,6 +17,12 @@ gulp.task("default", function () {
     .pipe(concat("all.js"))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("dist"));
+});
+
+gulp.task('wpdefault', function() {
+  return gulp.src('src/dummy.js')
+    .pipe(webpackStream(require('./webpack.config.js'), webpack2))
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('compress', function() {

@@ -1,5 +1,16 @@
 # dummy_boilerplate for React
 
+<div align="center">
+  <!-- Dependency Status -->
+  <a href="https://david-dm.org/vtripolitakis/react-boilerplate">
+    <img src="https://david-dm.org/vtripolitakis/dummy_boilerplate" alt="Dependency Status" />
+  </a>
+  <!-- devDependency Status -->
+  <a href="https://david-dm.org/vtripolitakis/dummy_boilerplate#info=devDependencies">
+    <img src="https://david-dm.org/vtripolitakis/dummy_boilerplate/dev-status.svg" alt="devDependency Status" />
+  </a>
+</div>
+
 ## Quick start
 
 1. Clone this repo 
